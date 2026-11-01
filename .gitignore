@@ -1,0 +1,23 @@
+# Build output (`make` builds in ./build; any other build dirs too)
+/build/
+/build-*/
+/cmake-build-*/
+
+# CMake files from an accidental in-source configure (CMakeLists.txt refuses
+# in-source builds, because they would overwrite the hand-written Makefile)
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+Testing/
+compile_commands.json
+
+# Editors and language servers
+.cache/
+.qmlls.ini
+CMakeLists.txt.user*
+.vscode/
+.idea/
+*.swp
+*~

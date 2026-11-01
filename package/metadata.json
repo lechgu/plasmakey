@@ -1,0 +1,20 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Lech Gudalewicz"
+            }
+        ],
+        "Copyright": "Copyright © 2026 Lech Gudalewicz",
+        "Description": "Shows which modifier keys (Shift, Ctrl, Alt, Meta) Sticky Keys has latched or locked",
+        "EnabledByDefault": true,
+        "Icon": "preferences-desktop-accessibility",
+        "Id": "plasmakey",
+        "License": "BSD-3-Clause",
+        "Name": "plasmakey",
+        "Version": "0.1.0"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-NotificationAreaCategory": "Hardware"
+}
